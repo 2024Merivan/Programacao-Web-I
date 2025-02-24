@@ -1,0 +1,61 @@
+/* Estilizando o corpo da página*/
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;  
+}
+body {
+    font-family: 'Arial Narrow Bold', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+              /* Define a altura mínima*/
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+    
+}
+.container{
+    max-height: 90vh;
+}
+/* Estilizando a imagem*/
+img {
+    width: auto;
+    max-width: 348px;
+    min-width: 223px;
+    height: 80%;
+    display: block;
+    margin: 0 auto 10px;      
+}
+h1 {
+    font-size: 49px;    /* Define o tamanho da fonte*/
+}
+.texto-azul {
+    color:#0075ff;
+    text-shadow: 2px 2px 2px black;
+}
+ /* Estilizando o parágrafo*/
+p {
+color: #7d7987;
+font-size: 14px;    /* Define o tamanho da fonte*/
+line-height: 1.5;
+}
+/* Estilizando a linha (por exemplo, acima do rodapé) */
+.linha {
+    border: 1px solid #ECEFF2;   /* Define a espessura e cor da linha */
+}
+
+footer {
+    margin-top: 40px;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilizando o espaçamento específico para a palavra "Instagram" dentro do rodapé */
+footer p span.espaco {
+    margin-right: 50px; /* Define o espaçamento desejado */
+}
+
+/* Estilizando o parágrafo dentro do rodapé */
+footer p {
+    color: #0075ff;
+}
