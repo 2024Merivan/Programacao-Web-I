@@ -1,0 +1,36 @@
+/*Estilo do corpo do texto*/
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+    padding: 10px;
+    background: linear-gradient(to top, #94dbc9 0%, #e3fff8 38%);
+    position: relative; /* Para o posicionamento absoluto dos elementos da página*/
+    flex-direction: column;
+}
+h1 {
+    position: absolute;
+    font-size: 49px;
+    top: 197px;
+    margin: 20px;
+}
+p {
+    position: absolute;
+    font-size: 14px;
+    top: 349px;
+    margin: 20px;
+}
+img {
+    position: absolute;
+    top: 197px;            /*distância superior*/
+    width: 481px;
+    height: 332px;
+    right: 150px;          /* distância da direita*/
+}
+footer {
+    position: absolute;
+    bottom: 10px; /* Distância do rodapé em relação ao fundo */
+    width: 100%;
+    text-align: center; /* Centraliza o texto do rodapé */
+    font-size: 14px;
+
+}
